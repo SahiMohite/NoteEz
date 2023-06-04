@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .whole {
+            background-color: rgb(235, 228, 228);
+            height: 100%;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .heading{
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Poppins', sans-serif;
+            box-shadow: 0 8px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 0px 15px 0px 15px;
+            background-color: white; 
+            /* background: -webkit-linear-gradient(blue, white);
+            background: -o-linear-gradient(blue, white);
+            background: -moz-linear-gradient(blue, white);  */
+        }
+        .main {
+            height: 400px;
+            width: 520px;
+            background-color: white;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Poppins', sans-serif;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            padding: 0 20px 0 20px;
+            border-radius: 15px;
+        }
+
+        .email,
+        .password {
+            height: 40px;
+            width: 400px;
+        }
+
+        .signin {
+            height: 40px;
+            width: 150px;
+            border-radius: 8px;
+            background-color: rgb(61, 61, 243);
+        }
+
+        .signin a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .signin:hover {
+            background-color: grey;
+        }
+
+        .btn {
+            margin-bottom: 15px;
+            text-align: right;
+        }
+
+        div u {
+            color: blue;
+        }
+    </style>
+    <title>Sign-In</title>
+</head>
+
+<body>
+    <div class="whole">
+        <div class="heading">
+            <h1>NoteEz</h1>
+        </div>
+        <div class="main">
+            <div>
+                <div id ="email" style="margin-bottom:8px" x>E-Mail</div>
+                <div><input class="email" type="email" placeholder="Enter your email"
+                        style="font-size: 15px; padding-left: 5px;"></div>
+            </div>
+
+            <div>
+                <div id="pass" style="margin-bottom:8px">
+                    <p>Password</p>
+                </div>
+                <div><input class="password" type="password" placeholder="Enter your password"
+                        style="font-size: 15px; padding-left: 5px;"></div>
+            </div>
+
+            <div style="
+                display:grid;
+                justify-content:center;
+                ">
+                <div class="btn">
+                    <button class="signin"><a href="userpage.html">Sign In</a></button> <br>
+                </div>
+                <div>
+                    <u>Don't have an account?</u>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <!-- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  -->
+                    <u>Forgot password?</u>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

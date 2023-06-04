@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body, html {
+    height: 100%;
+}
+
+.filterby{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subfilterby{
+    margin-top: 100px;
+    width: 50%;
+}
